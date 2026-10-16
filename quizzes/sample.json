@@ -1,0 +1,35 @@
+{
+  "title": "Everyday Favorites",
+  "teams": ["Team Red", "Team Blue"],
+  "maxStrikes": 3,
+  "rounds": [
+    {
+      "question": "Name a popular breakfast food",
+      "answers": [
+        { "text": "Pancakes", "points": 35, "aliases": ["pancake"] },
+        { "text": "Cereal", "points": 28 },
+        { "text": "Eggs", "points": 22 },
+        { "text": "Toast", "points": 15 }
+      ]
+    },
+    {
+      "question": "Name something you take to the beach",
+      "answers": [
+        { "text": "Towel", "points": 34 },
+        { "text": "Sunscreen", "points": 29 },
+        { "text": "Umbrella", "points": 21 },
+        { "text": "Beach ball", "points": 16 }
+      ]
+    },
+    {
+      "question": "Name a common house pet",
+      "multiplier": 2,
+      "answers": [
+        { "text": "Dog", "points": 40 },
+        { "text": "Cat", "points": 35 },
+        { "text": "Fish", "points": 15 },
+        { "text": "Hamster", "points": 10 }
+      ]
+    }
+  ]
+}
